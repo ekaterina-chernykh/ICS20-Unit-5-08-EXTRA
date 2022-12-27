@@ -31,16 +31,16 @@ class Program
         val2pos = Math.Abs(val2);
         remainder = val1pos;
 
-        while (remainder >= val2pos) {
-          remainder = remainder - val2pos;
-          counter = counter + 1;
+        while (remainder >= val2pos)
+        {
+            remainder = remainder - val2pos;
+            counter = counter + 1;
         }
         result = counter;
-      
-        if ((val1 < 0 && val2 > 0) || (val1 > 0 && val2 < 0)) {
-          result = result * -1;
-        }
-      
+        if ((val1 < 0 && val2 > 0) || (val1 > 0 && val2 < 0))
+        {
+            result = result * -1;
+        }      
         Console.Clear();
         Console.WriteLine("The result is: " + result + " R" + remainder);
         Console.WriteLine("\nDone.");
