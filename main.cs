@@ -40,7 +40,7 @@ class Program
         if ((val1 < 0 && val2 > 0) || (val1 > 0 && val2 < 0))
         {
             result = result * -1;
-        } 
+        }
         Console.Clear();
         Console.WriteLine("The result is: " + result + " R" + remainder);
         Console.WriteLine("\nDone.");
